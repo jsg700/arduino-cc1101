@@ -11,8 +11,8 @@
 // GD0 => A valid interrupt pin for your platform (defined below this)
 
 #if defined(__AVR_ATmega2560__) || defined(__AVR_ATmega1280__)
-#define CC1101Interrupt 4 // Pin 19
-#define CC1101_GDO0 19
+#define CC1101Interrupt 4 // Pin 2
+#define CC1101_GDO0 2
 #elif defined(__MK64FX512__)
 // Teensy 3.5
 #define CC1101Interrupt 9 // Pin 9
